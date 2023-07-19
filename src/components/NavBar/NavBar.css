@@ -1,0 +1,52 @@
+.cart-items {
+  background: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0 5px;
+  position: relative;
+  top: -10px;
+  left: -10px;
+}
+
+.dropdown-item.ver-todos {
+  background-color: black;
+  color: white;
+}
+
+
+
+.navbar .navbar-brand.navbar-logo {
+  font-size: 45px;
+  color: transparent;
+  background-image: linear-gradient(to right, #e6e6e6, #ccc, #e6e6e6);
+  background-size: 200% 100%;
+  background-position: 0 50%;
+  animation: shimmer 2s infinite, rotate 6s infinite linear;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-animation: shimmer 2s infinite, rotate 6s infinite linear;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: perspective(200px) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(200px) rotateY(360deg);
+  }
+}
+
+.my-navbar {
+  font-family: 'Agdasima', sans-serif;
+  font-size: 25px;
+}
